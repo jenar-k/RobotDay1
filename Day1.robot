@@ -8,7 +8,7 @@ ${DEMOBLAZE_URL}    https://www.demoblaze.com/index.html
 ${CHROME_BROWSER}   chrome
 
 *** Keywords ***
-Buka Browser
+Open Browser With Google Chrome
     Open Browser    url=${DEMOBLAZE_URL}   browser=${CHROME_BROWSER}
     Maximize Browser Window
 
