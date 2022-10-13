@@ -5,7 +5,7 @@ Test Teardown       Close Google Chrome Browser
 
 *** Variables ***
 ${DEMOBLAZE_URL}    https://www.demoblaze.com/index.html
-${CHROME_BROWSER}   gc
+${CHROME_BROWSER}   chrome
 
 *** Keywords ***
 Buka Browser
